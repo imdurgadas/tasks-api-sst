@@ -1,0 +1,15 @@
+{
+  "name": "@tasks-api/functions",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "sst bind vitest",
+    "typecheck": "tsc -noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.2",
+    "@types/aws-lambda": "^8.10.121",
+    "vitest": "^0.34.4",
+    "sst": "^2.25.2"
+  }
+}
